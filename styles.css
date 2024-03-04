@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #778da9;
+  background-image: url("https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-attachment: fixed;
+  backdrop-filter: blur(7.5px);
+  padding: 20px;
+}
+
+main {
+  width: 75vh;
+  max-width: 700px;
+  margin: 0 auto;
+  color: #e0e1dd;
+}
+
+.text {
+  color: blanchedalmond;
+  margin-bottom: 20px;
+}
+
+#title {
+  text-align: center;
+  font-size: 30px;
+}
+
+#description {
+  text-align: center;
+}
+
+#survey-form {
+  padding: 25px 40px;
+  border-radius: 10px;
+  background-color: rgba(13, 27, 42, 0.75);
+}
+
+.form-group {
+  margin-bottom: 40px;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: transparent;
+  padding: 10px 20px;
+  font-size: 20px;
+}
+
+label {
+  font-size: 16px;
+}
+
+.radio-checkbox-group label {
+  font-size: 20px;
+}
+
+.radio-checkbox-group {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.suggestion-textarea {
+  width: 100%;
+  aspect-ratio: 3/1;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+#submit {
+  width: 100%;
+  padding: 10px 30px;
+  border-radius: 10px;
+  background-color: blanchedalmond;
+  border: none;
+}
